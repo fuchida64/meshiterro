@@ -17,7 +17,7 @@
                   </div>
                 </div>
                 <div class="block-content">
-                  <%= attachment_image_tag post_image, :image %>
+                  <%= attachment_image_tag post_image.user, :profile_image, class: "img-circle pull-left profile-thumb" %>
                   <h3 class="block-title">
                     <a href="#"><i class="fa fa-map-marker"></i><%= post_image.shop_name %></a>
                   </h3>
